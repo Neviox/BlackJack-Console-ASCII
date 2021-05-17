@@ -84,10 +84,10 @@ void BlackJack::reset() {
 
 
 bool BlackJack::stop() {																			
-	cout << "Continue playing: y/n";
-	string info;
-	cin >> info;
-	return info == "n";
+	cout << "Play: y/n";
+	string play;
+	cin >> play;
+	return play == "n";
 }
 void BlackJack::calculate() {																			//handling money bets
 	if (playerWon)

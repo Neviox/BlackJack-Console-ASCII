@@ -15,12 +15,11 @@ namespace blackjack {
 		bool stop();
 		Player _player;
 		Player _computer;
-		
+		Deck deck;
 		bool playerWon;
 		bool computerWon;
 	public:
 		BlackJack(Player player);
 		void start();
-		Deck deck;
 	};
 }

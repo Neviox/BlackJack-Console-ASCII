@@ -10,11 +10,11 @@ int main()
     cin >> player;
     BlackJack blackjack(player);
     blackjack.start();
-    for (int i = 1; i <= 52; ++i) {
+    
+    /*for (int i = 1; i <= 52; ++i) {
         cout << i << "          ";
         blackjack.deck.getCard(player);
-    }
-
+    }*/
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
